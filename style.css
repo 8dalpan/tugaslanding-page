@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/thomasslebew.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+}
+nav.logo {
+  display: flex;
+}
+span {
+  color: red;
+}
+nav {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  font-family: "Nosifer", cursive;
+}
+nav ul {
+  display: flex;
+  padding: 5px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 15px;
+  color: wheat;
+}
+nav ul li a:hover {
+  background-color: red;
+  border-radius: 5px;
+}
+.IMG {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 150px;
+}
+.IMG img {
+  border-radius: 10%;
+  border: 10px solid white;
+}
+h1 {
+  padding: 15px;
+  text-align: center;
+  color: wheat;
+}
+.nama {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+footer {
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid red;
+  border-bottom: 1px solid black;
+}
+footer h3 {
+  line-height: 40px;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+/* rseponsif */

@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(/thomasslebew.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+nav.logo {
+  display: flex;
+}
+h1 {
+  color: white;
+}
+span {
+  color: red;
+}
+nav {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  font-family: "Nosifer", cursive;
+}
+nav ul {
+  display: flex;
+  padding: 5px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 15px;
+  color: wheat;
+}
+nav ul li a:hover {
+  background-color: red;
+  border-radius: 5px;
+}
+.text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+  font-family: "Nosifer", cursive;
+}
+span {
+  color: red;
+}
+.galery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+.galery h1 {
+  text-align: center;
+}
+.galery .img1:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+.galery .img2:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+.galery .img3:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+.galery .img4:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+.galery .img5:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+.galery .img6:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+.galery .img7:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+.galery .img8:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+.galery .img9:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+.galery .img10:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+footer {
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid red;
+  border-bottom: 1px solid black;
+}
+footer h3 {
+  line-height: -50%;
+  text-align: center;
+  line-height: 50px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
